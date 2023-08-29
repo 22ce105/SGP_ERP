@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@layer components {
+    .btn {
+        @apply bg-amber-950 text-white px-3 py-1 rounded-md hover:bg-amber-900 duration-300
+    }
+    .sub-btn {
+        @apply text-black px-3 rounded-sm duration-300
+    }
+    .allpage {
+        @apply bg-sky-200 h-[calc(100vh-64px)]
+    }
+    .txt-bx {
+        @apply px-2 py-1 bg-yellow-200 rounded-md border-2 border-black
+    }
+    .submit-btn {
+        @apply px-2 py-1 bg-yellow-200 rounded-md border-2 border-black w-full font-semibold hover:bg-green-400 duration-200 hover:shadow-xl hover:text-white
+    }
+    .side-btn {
+        @apply px-3 py-1 border-b-2 hover:cursor-pointer hover:w-52 hover:bg-white duration-75 hover:text-black
+    }
+    .advside-btn {
+        @apply px-3 py-1 hover:cursor-pointer hover:w-52 hover:bg-white duration-75 hover:text-black
+    }
+    .icon {
+        @apply h-14 w-14 hover:bg-white duration-75
+    }
+    .i {
+        @apply hover:shadow-lg hover:shadow-black hover:bg-red-500 opacity-5
+    }
+  }
